@@ -1,0 +1,30 @@
+.appendFiles {
+    margin: 0 .52rem;
+}
+.appendFiles div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.appendFiles li {
+    width: 3.8rem;
+    height: 3.8rem;
+    overflow: hidden;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    position: relative;
+}
+.appendFiles li img:first-of-type {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.appendFiles li .close_img {
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+    width: 1rem;
+}
+.appendFiles li input {
+    display: none;
+}
